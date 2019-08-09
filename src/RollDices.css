@@ -1,0 +1,27 @@
+.RollDices {
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 100vh;
+}
+
+.RollDices-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.RollDices button {
+    align-self: center;
+    width: 15em;
+    padding: 1.5em;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    background: black;
+    margin-top: 3em;
+}
+
+.RollDices button:hover {
+    background-color: darkslateblue;
+    cursor: pointer;
+}
